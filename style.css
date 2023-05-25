@@ -296,6 +296,37 @@ nav ul li a:focus {
   background-color: #8b2674;
 }
 
+#experiences {
+  padding: 40px 0;
+}
+
+.experience {
+  margin-bottom: 30px;
+}
+
+.experience h2 {
+  margin-bottom: 10px;
+}
+
+.experience p {
+  margin-bottom: 20px;
+}
+
+.experience a {
+  display: inline-block;
+  background-color: #993399;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.experience a:hover,
+.experience a:focus {
+  background-color: #8b2674;
+}
+
 /* Certificates section styles */
 #certificates {
   padding: 40px 0;
@@ -334,7 +365,7 @@ table {
     border-right: none;
   }
   
-/* Publications section styles */
+/* Projects section styles */
 #publications {
   padding: 40px 0;
 }
@@ -343,8 +374,27 @@ table {
   margin-bottom: 30px;
 }
 
-.publication h3 {
+.publication h2 {
   margin-bottom: 10px;
+}
+
+.publication p {
+  margin-bottom: 20px;
+}
+
+.publication a {
+  display: inline-block;
+  background-color: #993399;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.publication a:hover,
+.publication a:focus {
+  background-color: #8b2674;
 }
 
 /* Contact section styles */
